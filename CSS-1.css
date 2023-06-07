@@ -1,0 +1,121 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color:#eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding:10px;
+  text-align:left;
+}
+h1 {
+  font-size:30px;
+  margin:20px;
+  text-align:left;
+}
+nav {
+  border:1px solid #eae2b7;
+  padding:10px;
+  margin:5px 10px 2 2;
+  width:20%;
+  float:left;
+}
+
+section{
+  text-align:left;
+}
+h2 {
+ font-size:30px;
+  margin:2%;
+  padding:12%
+}
+/* Set the font family for any h1, h2, or h3 heading */
+h1 {
+  font-family:"Times New Roman", Serif;
+  font size:10px;
+  color:#003049;
+}
+h2{
+  font-family: "Times New Roman",Monospace;
+  font-size: 30px;
+  color:#003049;
+}
+h3 {
+  margin:100px;
+  font-size:20px;
+  font-family: "Playfair Display", Times, serif;
+}
+li {
+  margin:50px;
+  font-size:20px;
+  color:#003049
+}
+article {
+  background-color:#eae2b7;
+  padding: 20px 0;
+}
+
+article div {
+  background-color:#eae2b7;
+  text-align:left;
+  width: 50%;
+}
+header { 
+  text-align:left;
+  margin:10px;
+  font-size:20px;
+  color:#003049;
+}
+p {
+  Font-family:"Sans-Serif", cursive;
+  line-height: 1.5;
+  text-align:center;
+  margin:2px
+}
+img{
+  text-align:left;
+  background-color:#003049;
+  color:#003049;
+}
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 100px;
+}
+
+a:visted{
+  color:green;
+}
+a:link{
+  color:blue;
+}
+a:hover{
+  color:red;
+}
+img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+/*center-image*/
+.image-circle{
+  border-radius: 50%;
+}
+.round{
+  border-radius:50px;
+}
+footer{
+  border:1px solid #003049;
+  padding:10px;
+  margin:60px 20px 0 0;
+  width:110%;
+  text-align:left;
+  float:left;
+  color:#003049;
+}
